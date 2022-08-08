@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14a3d04f.css",
+    "main.js": "/static/js/main.a9437903.js",
+    "static/js/787.77081e05.chunk.js": "/static/js/787.77081e05.chunk.js",
+    "static/media/Rank=tiger.png": "/static/media/Rank=tiger.4fdceac46be207e2828d.png",
+    "static/media/Rank=dragon.png": "/static/media/Rank=dragon.1ecc8e4a4afe772bf4a2.png",
+    "static/media/Rank=bear.png": "/static/media/Rank=bear.15df5c3f2fea294bf1df.png",
+    "static/media/wooden-sign.png": "/static/media/wooden-sign.1feea3b3051748c639f6.png",
+    "static/media/Rank=wolf.png": "/static/media/Rank=wolf.8b470cc6e6a675113d43.png",
+    "static/media/Rank=boar.png": "/static/media/Rank=boar.89e7761d3ec36d0c97f0.png",
+    "static/media/Rank=challenger.png": "/static/media/Rank=challenger.e7389e647cc492ec5685.png",
+    "static/media/Rank=chick.png": "/static/media/Rank=chick.b1d88e76b7c42b7adb69.png",
+    "static/media/Rank=egg.png": "/static/media/Rank=egg.81b2ae63437863a3b601.png",
+    "static/media/Rank=hare.png": "/static/media/Rank=hare.d2f88e513c5aa1129f52.png",
+    "static/media/Vector.svg": "/static/media/Vector.b5d37c34b2e5e5ddc304.svg",
+    "index.html": "/index.html",
+    "main.14a3d04f.css.map": "/static/css/main.14a3d04f.css.map",
+    "main.a9437903.js.map": "/static/js/main.a9437903.js.map",
+    "787.77081e05.chunk.js.map": "/static/js/787.77081e05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a3d04f.css",
+    "static/js/main.a9437903.js"
+  ]
+}
