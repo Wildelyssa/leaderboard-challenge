@@ -6,7 +6,6 @@ const Player = (props) => {
   const index = props.id;
   //Establish character limit for rendering names
   const name = props.name;
-  const length = name.length;
   const characterLimit = 25;
   const shortName = name.slice(0, characterLimit);
   const playerName =
