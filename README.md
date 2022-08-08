@@ -6,6 +6,12 @@ The Leaderboard is mainly to be viewed on popular desktop screensizes, and mobil
 
 ### See live code here <https://wildelyssa.github.io/leaderboard-challenge/> 
 
+### Screenshots
+
+![leaderboard-challenge-01](https://user-images.githubusercontent.com/60786547/183532001-55adbbaa-3675-463d-962c-028ba1452d8c.png)
+
+![leaderboard-challenge-02](https://user-images.githubusercontent.com/60786547/183532018-815040ee-5853-4fe7-a379-50e56efee1e3.png)
+
 ## Tech used
 * React
 * React Hooks
