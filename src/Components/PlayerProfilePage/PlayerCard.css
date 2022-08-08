@@ -1,0 +1,243 @@
+.player-card_container {
+    justify-content: center;
+}
+.player-card {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 740px;
+    border-radius: 8px;
+    background-color: var(--secondary-background);
+    border: solid 3px  var(--secondary-border);
+    padding: 1rem 2.5rem 5rem 2.5rem;
+}
+.player-card_name {
+    font-family: var(--font-primary-header);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    color: var(--header-primary);
+    margin: 1rem 0;
+}
+.player-card_bio {
+    align-self: flex-start;
+    color: var(--secondary-color-alt);
+}
+.player-card_talent {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.player-card .rank-icon_container {
+    position: static;
+    right: auto;
+}
+.player-card_rank-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    padding: 1rem 0;
+}
+.player-card_rank {
+    font-family: var(--font-tertiary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--header-secondary);
+}
+.player-card_results-header {
+    font-family: var(--font-secondary-header);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--header-secondary);
+}
+.last-battle_details {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid rgba(147, 110, 89, 0.24);
+    border-radius: 8px;
+    padding: 1rem 1rem 4rem 1rem;
+}
+.last-battle-details_title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 0 1.5rem;
+}
+.last-battle_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-background);
+    margin: 24px;
+    border-radius: 10px;
+    padding: 2rem 0.5rem;
+}
+.last-battle_icons h3 {
+    margin: 0.5rem 0 0 0;
+}
+.last-battle_result-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.result-text {
+    font-family: var(--font-secondary-header);
+}
+.battle-stats_box {
+    border: solid rgba(147, 110, 89, 0.24);
+    border-radius: 8px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem 1rem 3rem 1rem;
+    width: 86%;
+    justify-self: center;
+    margin-top: 1.5rem;
+}
+.battle-stats_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.battle-stats-table_column {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-background);
+    margin: 0.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.battle-stats_points {
+    justify-self: flex-start;
+    margin-left: 2rem;
+}
+.battle-stats_star-icon {
+    width: 19px;
+    height: 20px;
+    padding-right: 4px;
+}
+.battle-stats_player-score {
+    font-family: var(--font-tertiary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.column-header {
+    grid-column: 1 / span 2;
+    font-family: var(--font-tertiary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--header-primary);
+}
+.table-categories_font {
+    font-family: var(--font-tertiary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--header-secondary);
+}
+.table-categories_date {
+    margin-bottom: 0;
+    color: var(--header-secondary);
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+    .player-card {
+        width: 80%;
+    }
+    .player-card_name {
+        font-size: 40px;
+    }
+    .player-card_results-header {
+        font-size: 32px;
+    }
+    .battle-stats_star-icon {
+        width: 14px;
+        height: 15px;
+    }
+    .battle-stats_player-score {
+        font-size: 14px;
+    }
+    .table-categories_font {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top-margin {
+        margin-top: 0;
+    }
+    .player-card {
+        margin: 1rem 0;
+        padding: 1rem 1rem 4rem 1rem;
+    }
+    .player-card_name {
+        font-size: 24px;
+    }
+    .player-card_results-header {
+        font-size: 20px;
+    }
+    .player-card_rank {
+        font-size: 14px;
+    }
+    .player-card_rank-box {
+        padding: 0.5rem 0;
+    }
+    .player-card_bio {
+        font-size: 12px;
+    }
+    .last-battle_icons {
+        margin: 0.5rem;
+        padding: 1rem 0.5rem;
+    }
+    .last-battle_details {
+        padding: 0.5rem 0.5rem 3rem 0.5rem;
+    }
+    .last-battle-details_title {
+        padding: 0 1rem;
+    }
+    .battle-stats_box {
+        /* width: 90%; */
+        width: 81%;
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+    .battle-stats_table {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .battle-stats_points {
+        margin-left: 0.3rem;
+    }
+    .player-card_talent {
+        margin-bottom: 0;
+    }
+    .table-categories_font {
+        font-size: 12px;
+    }
+    .table-categories_date{
+        font-size: 12px;
+    }
+    .battle-stats-table_column {
+        padding: 0.5rem;
+    } 
+    .column-header {
+        font-size: 18px;
+    }
+        
+}

@@ -1,0 +1,76 @@
+.header-sign {
+    margin-top: -108px;
+    background-image: url(../Images/wooden-sign.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 590px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-sign__title {
+    margin: 0 0 5px 0;
+    font-family: var(--font-primary-header);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    color: var(--header-primary);
+}
+.header-sign__season-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 158px;
+    background-color: #271A11;
+    background-size: contain;
+    border-radius: 45px;
+    margin-bottom: 25px;
+}
+.header-sign__sub-title{
+    font-family: var(--font-secondary-header);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--header-secondary);
+    margin:0;
+}
+.header-sign__star-icon {
+    width: 19px;
+    height: 20px;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .header-sign {
+        width: 535px;
+        height: 170px;
+        margin-top:-123px;
+    }
+    .header-sign__title {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header-sign {
+        width: 90%;
+        height: 98%;
+        margin-top: -118px;
+    }
+    .header-sign__title {
+        font-size: 1.6rem;
+    }
+    .header-sign__sub-title {
+        font-size: 18px;
+    }
+    .header-sign__star-icon {
+        width: 15px;
+        height: 16px;
+    }
+    .header-sign__season-box {
+        margin-bottom: 20px;
+    }
+}

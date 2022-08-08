@@ -1,0 +1,27 @@
+.leaderboard_container {
+    margin-top: 61px;
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+}
+.leaderboard_container a {
+    width: 100%;
+    text-decoration: none;
+}
+.leaderboard_container a:hover {
+    opacity: .8;
+}
+
+/* media queries */
+@media screen and (max-width: 767px) {
+    .leaderboard_container {
+        width: 80%;
+        margin-top: 52px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .leaderboard_container {
+        width: 80%;
+        margin-top: 0px;
+    }
+}

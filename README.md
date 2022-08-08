@@ -1,6 +1,46 @@
-# Getting Started with Create React App
+# Leaderboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
+App which fetches player and game data from an API, and displays the data in the form of a Leaderboard. Each player row in the Leaderboard displays the player name, points, rankTier and rank. Each player element from the Leaderboard clicks through to the players profile which shows more information including player bio, and deatails of last battle.
+The Leaderboard is mainly to be viewed on popular desktop screensizes, and mobile phones in portrait view.
+
+### See live code here <https://wildelyssa.github.io/leaderboard-challenge/> 
+
+## Tech used
+* React
+* React Hooks
+* React Router
+* CSS3
+* JS
+* Tribally API Enpoint
+
+## Features
+* Fetches data from an API enpoint to be displayed on the Leaderboard
+* Passes data with useLocation hook to a routed component
+* Uses <Link /> component from React Router to create a new local page
+* Rank is denoted by a relevant image which is pulled in depending on props
+* Profile page in keeping with the leaderboard design
+* App is fully responsive on all of the main screen sizes and devices
+* Content from the app is manipulated with CSS and JavaScript to remain in keeping with the design and avoid breaking content
+* Error component and functionality to catch and display errors in the main API call
+* Character limit for names for leaderboard to improve layout and readability
+* Longer names supported in player profile in keeping with the purpose of profile page- to give more details and information
+* Use of CSS variables for easy editing of colors and fonts for future proofing design and code
+
+## Improvements
+* Add a 'Back to Leaderboard' link to profile page to improve User Experience
+* Season to be added dynamically
+* Manage state changes and API call with Redux/Redux Saga
+* Add unit tests to components with Jest
+* Character limit for names and possibly bio to be agreed and managed server side, and client side on form validation
+* Add more error scenarios such as checking for data with empty strings
+* Display errors dynamically depending on an error code for example 404
+* Refactor CSS to slim down and avoid repetition
+* Convert CSS to SCSS and extablish variables based on design principals, extend classes to avoid long CSS files
+* Establish global classes and variables for global SCSS file based on design pricipals
+* Extract out components from the <PlayerCard /> component to reduce the length of the file and isolate the different elements to improve separation of concerns
+* Design can be refined further once finalised
+* Further formatting of Date and Time properties to improve content and readbility
 
 ## Available Scripts
 

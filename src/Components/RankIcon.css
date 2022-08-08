@@ -1,0 +1,43 @@
+.rank-icon_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--header-secondary);
+    transform: rotate(45deg);
+    border: solid #271A11 5px;
+    position: absolute;
+    right: -40px;
+    bottom: 19px;
+    width: 60px;
+    height: 60px;
+}
+.light-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--header-secondary);
+    border: solid 3px rgba(147, 110, 89, 0.24);
+}
+.rank-icon {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    transform: rotate(-45deg);
+}
+/* media queries */
+@media screen and (max-width: 767px){
+    .rank-icon_container {
+        right: -19px;
+        bottom: 13px;
+        width: 38px;
+        height: 38px;
+    }
+    .rank-icon {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+
