@@ -3,6 +3,11 @@
 ## Purpose
 App which fetches player and game data from an API, and displays the data in the form of a Leaderboard. Each player row in the Leaderboard displays the player name, points, rankTier and rank. Each player element from the Leaderboard clicks through to the players profile which shows more information including player bio, and deatails of last battle.
 The Leaderboard is mainly to be viewed on popular desktop screensizes, and mobile phones in portrait view.
+
+### Live Code
+
+[Leaderboard-challenge](https://wildelyssa.github.io/leaderboard-challenge/)
+
 ### Screenshots
 
 ![leaderboard-challenge-01](https://user-images.githubusercontent.com/60786547/183532001-55adbbaa-3675-463d-962c-028ba1452d8c.png)

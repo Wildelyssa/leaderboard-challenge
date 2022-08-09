@@ -1,6 +1,7 @@
 {
   "name": "leaderboard",
   "version": "0.1.0",
+  "homepage": "https://wildelyssa.github.io/leaderboard-challenge/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",

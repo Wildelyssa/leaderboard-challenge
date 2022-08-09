@@ -9,9 +9,9 @@ import PlayerCard from './Components/PlayerProfilePage/PlayerCard';
 const root = ReactDOM.createRoot(
   document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/leaderboard-challenge/">
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" exact element={<App />} />
       <Route path="profile" element={<PlayerCard />} />
     </Routes>
   </BrowserRouter>
