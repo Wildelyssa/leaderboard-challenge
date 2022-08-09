@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leaderboard-challenge/static/css/main.5fbdcca5.css",
-    "main.js": "/leaderboard-challenge/static/js/main.2d375c5b.js",
+    "main.js": "/leaderboard-challenge/static/js/main.c04a3660.js",
     "static/js/787.77081e05.chunk.js": "/leaderboard-challenge/static/js/787.77081e05.chunk.js",
     "static/media/Rank=tiger.png": "/leaderboard-challenge/static/media/Rank=tiger.4fdceac46be207e2828d.png",
     "static/media/Rank=dragon.png": "/leaderboard-challenge/static/media/Rank=dragon.1ecc8e4a4afe772bf4a2.png",
@@ -16,11 +16,11 @@
     "static/media/Vector.svg": "/leaderboard-challenge/static/media/Vector.b5d37c34b2e5e5ddc304.svg",
     "index.html": "/leaderboard-challenge/index.html",
     "main.5fbdcca5.css.map": "/leaderboard-challenge/static/css/main.5fbdcca5.css.map",
-    "main.2d375c5b.js.map": "/leaderboard-challenge/static/js/main.2d375c5b.js.map",
+    "main.c04a3660.js.map": "/leaderboard-challenge/static/js/main.c04a3660.js.map",
     "787.77081e05.chunk.js.map": "/leaderboard-challenge/static/js/787.77081e05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fbdcca5.css",
-    "static/js/main.2d375c5b.js"
+    "static/js/main.c04a3660.js"
   ]
 }
