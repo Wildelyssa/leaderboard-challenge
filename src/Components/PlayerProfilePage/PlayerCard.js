@@ -15,7 +15,7 @@ const PlayerCard = () => {
   const outcome = battle.result;
   const { battleType } = battle;
   const battleEnd = battle.battleEnded;
-  const formatEndDate =  battleEnd.replace('T', ' ')
+  const formatEndDate = battleEnd.replace("T", " ");
 
   return (
     <div className="page-background player-card_container">
@@ -48,7 +48,9 @@ const PlayerCard = () => {
             <h2 className="player-card_results-header top-margin">
               Last Battle
             </h2>
-            <h3 className='table-categories_date top-margin'>Concluded on: {formatEndDate}</h3>
+            <h3 className="table-categories_date top-margin">
+              Concluded on: {formatEndDate}
+            </h3>
           </div>
           <div className="last-battle_icons">
             {battleType === "pve" ? <PlayerVEnv /> : <PlayerVPlayer />}
@@ -66,6 +68,7 @@ const PlayerCard = () => {
               <h3 className="player-card_results-header">LOST</h3>
             )}
           </div>
+{/* Battle Stats */}
           <div className="battle-stats_box">
             {/* Battle stats table */}
             <h2 className="player-card_results-header top-margin">

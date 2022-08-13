@@ -1,4 +1,3 @@
-import './App.css';
 import './GlobalStyles.css';
 import Header from './Components/Header';
 import Leaderboard from './Components/Leaderboard';
