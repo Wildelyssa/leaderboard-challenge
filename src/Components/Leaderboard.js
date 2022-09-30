@@ -13,7 +13,8 @@ const Leaderboard = () => {
 
   useEffect(() => {
     //API call
-    const APIurl = "https://tribally.xyz/leaderboard/origin/arena";
+    const APIurl = "PLACEHOLDER";
+    // create api for data
     fetch(APIurl)
       .then((response) => response.json())
       .then((respData) => {
